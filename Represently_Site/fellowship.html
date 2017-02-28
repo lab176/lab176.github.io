@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/recruit.css" rel="stylesheet">
+	<script src="jquery-3.1.1.min.js"></script>
+	
+	<!-- Favicon -->
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+	
+	<!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <meta property="og:image" content="img/represently-wordmark.png" />
+	<title>Represently: Reviving Representation</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+     <script>
+
+            $(document).ready(function(){
+                var useragent = navigator.userAgent.toLowerCase();
+
+                var isMobileDevice = navigator.userAgent.match(/iPad|iPhone|iPod|Andriod/i) != null || screen.width <= 480;
+                
+                if(isMobileDevice) {
+                    console.log("help");
+                    $('#p_sect').css({"display":"none"});
+                    $('#p_sect2').css({"display":"none"});
+                    $('#p_sect2').css({"display":"none"});
+                    $('#h_1_m').css({"font-size":"25px"});
+                    $('#h_2_m').css({"font-size":"25px"});
+                    $('#h_m_2').css({"font-size":"25px"});
+                    $('#h_m_3').css({"font-size":"25px"});
+
+                    $("#dev_doc").attr('href', 'http://bit.ly/2lSGCaS')
+                    $("#strat_doc").attr('href', 'http://bit.ly/2lIsgI2')
+
+                    return;
+                }else{
+                    $('#m_sect').css({"display":"none"});
+                    $('#m_sect2').css({"display":"none"});
+                }
+            });
+                
+    </script>
+
+        
+<!-- Navigation -->
+
+    <a class="page-scroll" id="nav_bar_txt2" href="http://www.represently.com">Home</a>
+    
+    <!-- About Section -->
+    <section id="fellow-about" class="container content-section text-center">
+        <div class="row">
+
+        <center>
+        <img class="img_small" src="img/represently-wordmark.png" alt=""> 
+        </center>
+        <hr>
+
+            <div class="col-lg-8 col-lg-offset-2">
+                <br>
+                <p>
+                    Ideated at the Second Annual Congressional Hackathon and seeded by George Washington University and our founders, Represently is a software startup dedicated to improving lawmaker-citizen relationships. Our company is founded on the belief that an influx of constituent communication should be a lawmaker’s greatest asset, not a hassle. Thus, we’re building the world’s first two-sided platform dedicated to lawmaker-constituent relationships.
+                    <br><br>
+                    The best way to complain is to make things. And you’ve been complaining a lot about politics. Join us.
+                </p>
+                <br><br>
+                <br>
+                <center><h2>Fellowship Program</h2></center>
+                <p>Represently is hiring summer fellows to join our determined team. Fellows will join for ten weeks and have housing provided in Washington, DC. In addition, Represently has partnered with the National Council on Entrepreneurial Tech Transfer (NCET2) to provide weekly programming where Fellows will be exposed to the DC startup ecosystem, including meetings with angel investors and venture capitalists and talks with prominent area entrepreneurs. Fellows are intended to have the opportunity to extend their commitment to beyond the summer. <br><br>We seek Software Development Fellows for both frontend and backend development. Experience in Django or Vue.js are preferred but not required. We're also looking for Strategist Fellows to identify growth opportunities, implement plans to capture them, and use client feedback to make our product be as impactful as possible.</p>
+                <p></p>
+                <br><br>
+                <br>
+               
+                <center><h2>Skills and qualifications</h2></center>
+                <hr>
+                <center>
+                <div id = "m_sect" class="m_wrapper">
+                    <br>
+                    <center><h1 id="h_1_m"> Developer </h1></center>
+
+                               <center> <p>
+                                We overwhelmingly prefer potential technical skill to present skill. Results are more impressive than pedigree, but the two are sometimes correlated. Previous experience is a signal of potential, but it is not determinate.
+                                </p>
+                                </center>
+
+                                <ul>
+                                    <li> You are eager to create technology to shape the direction of digital democracy, and may have demonstrated this at a previous civic tech organization like 18F or USDS </li>
+                                    <li> You’re actively learning new skills–you have a history of attending hackathons and/or a showcase of side projects in order to try out new technologies </li>
+                                    <li> You are exceptionally self-motivated –like our lead developer, you’re the type of person to take a 10-hour online class on a Saturday because the following week requires product design decisions and you want to get it right </li>
+                                    <li> Your peers naturally looked to you for leadership on previous projects </li>
+                                    <li>Familiarity with -or ability to learn- Python libraries such as sci-kit learn and SpaCy or NLTK; experience with TensorFlow; serving machine learning models via AWS</li>
+                                    <li>You’re the kind of person who applies for jobs even when you don’t meet all the requirements– you have no problem saying “I don’t know” but you figure it out
+                                    </li>
+                                </ul>
+                                
+
+                                <hr>
+                                <center><h1 id="h_2_m"> Strategist </h1></center>
+                                
+                                <p>
+                                Your background experience (which may include marketing, client engagement, sales, software development, or product management) will dictate how you’ll make the biggest impact. Formally, this relies on:
+                                </p>
+
+                                <ul>
+                                    <li> Demonstrated work and interest in civic engagement – perhaps working on a campaign, in political advocacy, local government, or a civic technology organization </li>
+                                    <li> An ineffable aptitude to bias towards action – you not only have a history of seizing opportunities in your work or extracurricular activity but creating them </li>
+                                    <li> Demonstrated analytical thinking, breaking complex problems into a rational and approachable course of action </li>
+                                    <li> Strong written and oral communication skills, particularly when convincing stakeholders or peers 
+                                    </li>
+                                    <li> Attention to detail
+                                    </li>
+                                    <li> Leadership – you naturally find yourself guiding colleagues and peers 
+                                    </li>
+                                    <li> An ability to prove we overlooked a qualification that describes why you’re best suited for this Fellowship 
+                                    </li>
+                                </ul>
+                        </div>
+                </center>
+
+                <center> 
+                        <div id="p_sect" class="wrapper">
+                           
+                           <div id="left" class="left">
+                                
+                                <center><h1> Developer </h1></center>
+
+                               <center> <p>
+                                We overwhelmingly prefer potential technical skill to present skill. Results are more impressive than pedigree, but the two are sometimes correlated. Previous experience is a signal of potential, but it is not determinate.
+                                </p>
+                                </center>
+
+                                <ul>
+                                    <li> You are eager to create technology to shape the direction of digital democracy, and may have demonstrated this at a previous civic tech organization like 18F or USDS </li>
+                                    <li> You’re actively learning new skills–you have a history of attending hackathons and/or a showcase of side projects in order to try out new technologies </li>
+                                    <li> You are exceptionally self-motivated –like our lead developer, you’re the type of person to take a 10-hour online class on a Saturday because the following week requires product design decisions and you want to get it right </li>
+                                    <li> Your peers naturally looked to you for leadership on previous projects </li>
+                                    <li>Familiarity with -or ability to learn- Python libraries such as sci-kit learn and SpaCy or NLTK; experience with TensorFlow; serving machine learning models via AWS</li>
+                                    <li>You’re the kind of person who applies for jobs even when you don’t meet all the requirements– you have no problem saying “I don’t know” but you figure it out
+                                    </li>
+                                </ul>
+                                
+                               
+                            </div>
+
+                            <div id="right" class="right">
+                                
+                                <center><h1> Strategist </h1></center>
+                                
+                                <p>
+                                Your background experience (which may include marketing, client engagement, sales, software development, or product management) will dictate how you’ll best grow and improve our product. Formally, this relies on:
+                                </p>
+
+                                <ul>
+                                    <li> Demonstrated work and interest in civic engagement – perhaps working on a campaign, in political advocacy, local government, or a civic technology organization </li>
+                                    <li> An ineffable aptitude to bias towards action – you not only have a history of seizing opportunities in your work or extracurricular activity but creating them </li>
+                                    <li> Demonstrated analytical thinking, breaking complex problems into a rational and approachable course of action </li>
+                                    <li> Strong written and oral communication skills, particularly when convincing stakeholders or peers 
+                                    </li>
+                                    <li> Attention to detail
+                                    </li>
+                                    <li> Leadership – you naturally find yourself guiding colleagues and peers 
+                                    </li>
+                                    <li> An ability to prove we overlooked a qualification that describes why you’re best suited for this Fellowship 
+                                    </li>
+                                </ul>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                </center>
+                 <br>
+                <center><h2>What you'll do</h2></center>
+                <hr>
+
+                <div id="m_sect2" class="m_wrapper">
+                    
+                    <center><h1 id="h_m_2"> Developer </h1></center>
+
+                               <center> <p>
+                                You’ll work closely with our team to immediately write production-ready code. Because of our early stage, you will have tremendous opportunity to shape the product’s direction, tangibly improving the ability for lawmakers to hear their constituents’ concerns.
+                                <br><br>
+                                In addition, we place a strong emphasis on education, particularly for Fellows. Expect weekly seminars on systems, architecture, machine learning, and more. Investing in you is a company staple: even with three hours dedicated to pure learning, a Fellow only needs to become seven percent more efficient in a hypothetical 50-hour work week to exceed otherwise anticipated output.
+                                <br><br>
+                                </p>
+                                </center>
+
+                                <ul>
+                                    <li> Write production-ready code immediately</li>
+                                    <li> Shape core product feature design and implementation</li>
+                                    <li> Learn the fundamentals of what it takes to make you a better developer </li>
+                                     
+                                      
+                                </ul>
+                                <hr>
+                                <center><h1 id="h_m_3"> Strategist </h1></center>
+                                
+                                <p>
+                                A successful Strategist Fellow applies their generalist skillset, whether technical or otherwise, to their passion for civic tech. Expect the opportunity to define your own role, which may include designing and implementing outreach strategies, defining features, and educating users. You will identify growth opportunities and implement the analytical plan to capture them. Moreover, you are the vital connection between growing clients and informing our development team.
+                                <br><br>
+                                Strategist Fellows are in prime position to capitalize on our partnership with the National Council on Entrepreneurial Tech Transfer. You will identify leads for the Represently team while professionally growing through regular seminars with angels and venture capitalists, onsite visits to fellow DC-area ventures, and influencers in the political space.
+                                </p>
+
+                                <ul>
+                                    <li> Identify growth opportunities and create action plans to seize them </li>
+                                    <li> Shape the product roadmap based on client feedback
+                                    </li>
+                                    <li> Learn the fundamentals of growing a successful enterprise
+                                    </li>
+                                    
+                                </ul>
+                </div>
+
+                <center> 
+                        <div id="p_sect2" class="wrapper">
+                           
+                           <div id="left" class="left">
+                                
+                                <center><h1> Developer </h1></center>
+
+                               <center> <p>
+                                You’ll work closely with our team to immediately write production-ready code. Because of our early stage, you will have tremendous opportunity to shape the product’s direction, tangibly improving the ability for lawmakers to hear their constituents’ concerns.
+                                <br><br>
+                                In addition, we place a strong emphasis on education, particularly for Fellows. Expect weekly seminars on systems, architecture, machine learning, and more. Investing in you is a company staple: even with three hours dedicated to pure learning, a Fellow only needs to become seven percent more efficient in a hypothetical 50-hour work week to exceed otherwise anticipated output.
+                                <br><br>
+                                </p>
+                                </center>
+
+                                <ul>
+                                    <li> Write production-ready code immediately</li>
+                                    <li> Shape core product feature design and implementation</li>
+                                    <li> Learn the fundamentals of what it takes to make you a better developer </li>
+                                     <br><br>
+                                      <br><br>
+                                </ul>
+                                
+                                
+                            </div>
+
+                            <div id="right" class="right">
+                                
+                                <center><h1> Strategist </h1></center>
+                                
+                                <p>
+                                A successful Strategist Fellow applies their generalist skillset, whether technical or otherwise, to their passion for civic tech. Expect the opportunity to define your own role, which may include designing and implementing outreach strategies, defining features, and educating users. You will identify growth opportunities and implement the analytical plan to capture them. Moreover, you are the vital connection between growing clients and informing our development team.
+                                <br><br>
+                                Strategist Fellows are in prime position to capitalize on our partnership with the National Council on Entrepreneurial Tech Transfer. You will identify leads for the Represently team while professionally growing through regular seminars with angels and venture capitalists, onsite visits to fellow DC-area ventures, and influencers in the political space.
+                                </p>
+
+                                <ul>
+                                    <li> Identify growth opportunities and create action plans to seize them </li>
+                                    <li> Shape the product roadmap based on client feedback
+                                    </li>
+                                    <li> Learn the fundamentals of growing a successful enterprise
+                                    </li>
+                                    
+                                </ul>
+                                
+                               
+                            </div>
+                            
+                        </div>
+                </center>
+
+
+                <center><h2>Who we are</h2></center>
+                <hr>
+                <p>We’re a small, close team with backgrounds in data science, public and private sector software development, and working on Capitol Hill that leverages technology for more effective representative democracy.
+                <br><br> Knowing our team is key to your successful summer experience.
+                </p>
+
+                
+                    <p>
+                    <b style="font-size: 110%;"> Joseph </b> is a sociable data scientist, leading the product’s machine learning development and vision. Joseph leans on his technical and political background, including leading data science instruction at General Assembly, working on Facebook’s Government and Politics team, and interning in the Senate. He’s impassioned to help his team reach their full potential. Joseph is the only member of the Represently team to not have been a high school senior class president.
+                    </p>
+
+                    <p>
+                    <b style="font-size: 110%;"> Luke</b> leads software development. He has pending published papers about improving real-time operating systems. Luke previously worked in Maryland statewide politics and elections. Luke can tell you about the ins and outs of chicken farming economics because of his time on the campaign trail in rural Maryland.
+                    </p>
+
+                    <p>
+                    <b style="font-size: 110%;"> Tyler</b> leads client engagement efforts. He has previous experience working at Skadden Arps, conducting economic analysis at the US Department of Treasury and Uno Trade Strategy, as well as interning on Capitol Hill. Tyler has five (!) LinkedIn endorsements for Social Media.
+                    </p>
+
+                <p></p>
+                <br>
+                <br>
+
+                <center>
+                    <h1>Apply</h1> 
+                    <hr>
+                    <p id="apply_details">
+                    Applications to be a 2017 Represently Fellow will be reviewed on a rolling basis following two submission waves. Slots are filled based on availability. Applying earlier provides an advantage.
+                    <br>
+                    <br>
+                    Early Deadline: March 10, 2017
+                    <br>
+                    Final Deadline: March 24, 2017
+                    <br>
+                    <br>
+
+                    To apply, fill out one of these forms: <br>
+                        <a id="dev_doc" href="http://bit.ly/2maFQXN" download>Developer Application</a> or 
+                        <a id="strat_doc" href="http://bit.ly/2maFKzn" download>Strategist Application</a>
+                        <br>
+                     and send it, along with your resume, to
+                        <br>
+                        <b> hi@represently.com </b>
+                        <br>
+                        <hr>
+                    </p>
+                </center>
+
+            <footer class="footer">
+                <div class="foot_text text-center">
+                    <p>Represently &copy; <script>document.write(new Date().getFullYear())</script>
+                    &middot; All Rights Reserved &middot; 
+                    <p>Proudly coded in Washington, DC</p>
+                </div>
+            </footer>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+  
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-76049618-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+
+</body>
+
+</html>

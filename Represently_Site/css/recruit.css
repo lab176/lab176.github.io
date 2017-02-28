@@ -1,0 +1,249 @@
+/*!
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+hr {
+  width: 70%;
+  size: 4px;
+}
+
+.m_wrapper {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  padding-bottom: 100px;
+}
+
+.m_wrapper p {
+  font-size: 120%;
+   text-align: justify;
+   text-align: left;
+}
+
+.m_wrapper li {
+  text-align: justify;
+   text-align: left;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.left {
+  background-color: #F8F8F8;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align: left;
+}
+.left h1 {
+  text-align: center;
+}
+.left a {
+  font-size: 120%;
+  text-align: center;
+}
+
+.right {
+  background-color: #F8F8F8;
+  padding-left: 20px;
+  padding-top:20px;
+  padding-right: 20px;
+  padding-bottom:20px;
+  text-align: left;
+}
+.right a {
+  text-align: center;
+  font-size: 120%;
+  text-align:center;
+}
+
+
+#right p {
+   font-size: 120%;
+   text-align: justify;
+}
+
+#center_s {
+margin-left: auto;
+margin-right: auto;
+width: 20px;
+background-color: #ccc;
+}
+
+#left {
+  float:left;
+  width:50%;
+  border-right: 2px solid;
+}
+
+#left p{
+  font-size: 120%;
+  text-align: justify;
+  width: 90%;
+
+
+}
+
+#left h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 130%;
+  letter-spacing: 2px;
+}
+
+#right h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 130%;
+  letter-spacing: 1px;
+}
+
+#right {
+ 
+  float:right;
+  width:50%;
+ }
+
+.img_small {
+  max-height: 50%;
+  max-width: 50%;
+  position: center; /* Declared position allows for location changes */
+  margin-top: -60px; /* Moves the image 2px closer to the top of the page */
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: white;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat Light",  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+.content-section a {
+  color: #585960;
+  text-decoration: none;
+  box-shadow: inset 0 -4px 0 #99FFFF;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.content-section a:hover,
+.content-section a:focus {
+  background-color: #99FFFF;
+  text-decoration: none;
+  box-shadow: inset 0 -4px 0 #99FFFF;
+}
+.content-section {
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  color: #585860;
+  background-color: white;
+  font-family: "Montserrat Light";
+  text-align: justify;
+  text-justify: inter-word;
+}
+.content-section li {
+  padding-bottom: 15px;
+  font-size: 120%;
+}
+
+.content-section p {
+  font-size: 130%;
+}
+
+
+@media (min-width: 767px) {
+  .content-section {
+  	height: 100%;
+  }
+  .contact-section {
+  	padding-top: 50px;
+  }
+  .about-section {
+  	height: 100%;
+  }
+}
+
+#nav_bar_txt2 {
+  padding-right: 70px;
+  padding-top: 30px;
+  font-size: 130%;
+  font-family: "Montserrat Light";
+  color: black;
+  float: right;
+}
+
+
+footer {
+  padding: 50px 0;
+  color:black;
+}
+footer p {
+  margin: 0;
+  size: 60%;
+  font-size: 90%;
+  color: #585860;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  color: blue;
+  background: white;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
